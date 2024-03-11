@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
+    <title>RAJESH_N</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="assets/profile-pic1.png">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mediaqueries.css" /> 
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+<body>
+  <header>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light" id="desktop-nav">
+      <a class="navbar-brand neon-text" href="#"><b><h1>PORTFOLIO</h1></b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link neon-text text-danger" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link neon-text text-danger" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link neon-text text-danger" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link neon-text text-danger" href="#contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </nav> 
+  
+
+
+  
+  <nav class="navbar navbar-light bg-light" id="hamburger-nav">
+      <a class="navbar-brand" href="#">RAJESH N</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggle">
+          <div class="menu-links">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about" onclick="toggleMenu()">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#experience" onclick="toggleMenu()">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#projects" onclick="toggleMenu()">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact" onclick="toggleMenu()">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav> 
+  </header>
+  
+
+    <!-- Profile Section -->
+    <section id="profile" class="container-fluid p-0 mt-1">
+      <div class="row no-gutters">
+        <div class="col-md-6 col-xs-12 mt-5">
+          <img class="img-fluid pic" style="border-radius: 50%; border:5px solid green; box-shadow: 10px 10px rgb(220, 219, 219);" src="./assets/profile-pic1.png" alt="Rajesh.N image" />
+        </div>
+        <div class="col-md-6 col-xs-12 my-5  d-flex align-items-center">
+          <div class="section__text text-center text-md-left">
+            <p class="section__text__p1" >Hello, I'm</p>
+            <h1 class="title neon-text section__text__p3" style="color: green;">RAJESH.N</h1>
+            <p class="section__text__p2 text-center neon-text1">TECH ENTHUSIAST</p>
+            <div class="btn-container">
+              <button class="bttn btn-color-1" onclick="window.open('assets/Rajesh_N.pdf')">Download CV</button>
+              <button class="bttn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+              <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+              <img src="./assets/github.png" alt="My Github profile" class="icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about" class="container p-5">
+      <h2 class="text-center">Get to know more</h2>
+    <h1 class="text-center"> About me</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid pic mt-5" style="border-radius: 50%; box-shadow: 10px 10px grey;" src="./assets/profile-pic.png" alt="Profile picture" />
+            </div>
+            <div class="col-md-6 ml">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                            <h3>Skills In</h3>
+                            <p><b>Web Development, Python</b></p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education icon" class="icon" />
+                            <h3>Education</h3>
+                            <p><b>B.Tech Bachelors Degree</b></p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p class="neon-text">
+                            "Welcome to my portfolio, where my passion for technology extends beyond web development, encompassing Python, AI, and more.
+                            I've dedicated myself to acquiring a diverse set of skills in these fields,
+                            allowing me to explore and create in a multitude of exciting technological realms."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'" />
+    </section>
+    
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="container p-5">
+      <h4 class="text-center">Explore my</h4>
+      <h1 class="text-center"> Skills</h1>
+
+  
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="article-container">
+                  <h1 class="experience-sub-title text-center">Frontend Development</h1>
+                    
+                    <div class="article-container">
+                        
+                        
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                          </div>
+                        </article>
+                   
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                          </div>
+                        </article>
+                         <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Bootstrap</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article> 
+                         <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>React js</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="article-container">
+                    <h2 class="experience-sub-title">Skills</h2>
+                    <div class="article-container">
+                        
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>MySQL</h3>
+                            <p>Basic</p>
+                          </div>
+                        </article>
+                         <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Django</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article> 
+                         <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Python</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article> 
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article>
+                        <article>
+                          <img
+                            src="./assets/checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                          />
+                          <div>
+                            <h3>c++</h3>
+                            <p>Intermediate</p>
+                          </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+      
+      <h1 class="text-center"> My Projects</h1>
+  
+        <div class="row">
+            <div class="col-md-6">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        
+                        <img
+                src="./assets/e-commerce.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">E-commerce landing page</h2>
+            <p style="color: black;">I built an attractive e-commerce landing page to make online shopping easy and enjoyable. 
+              The goal was to create a website that looks good, works well, and makes it simple for people to explore and buy products.</p>
+            <div class="btn-container">
+              <button
+                class="bttn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Rajeshn09/pace-wisdom-sass-scss'"
+              >
+                Github
+              </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                       
+                        <img
+                src="./assets/event.avif"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Event Management system</h2>
+            <p style="color: black;">I developed an Event Management System to streamline the planning and coordination of various events. 
+              This system was designed to simplify the complexities of managing different types of events, 
+              from conferences to social gatherings.</p>
+            <div class="btn-container">
+              <button
+                class="bttn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Rajeshn09/DwarkaEvents2023'"
+              >
+                Github
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+    </section>
+   
+
+    <!-- Contact Section -->
+    <section id="contact" class="container col-xs-12">
+     
+     
+        <h4 class="text-center">Get in touch</h4>
+        <h1 class="text-center"> contact me</h1>
+      
+  
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact-info-upper-container">
+                   
+                    <div class="contact-info-container">
+                      <img
+                        src="./assets/email.png"
+                        alt="Email icon"
+                        class="icon contact-icon email-icon"
+                      />
+                      <p><a href="mailto:rajeshnrajeshn567@gmail.com">rajeshnrajeshn567@gmail.com</a></p>
+                    </div>
+                    <div class="contact-info-container">
+                      <img
+                        src="./assets/linkedin.png"
+                        alt="LinkedIn icon"
+                        class="icon contact-icon"
+                      />
+                      <p><a href="https://www.linkedin.com/in/rajesh-n-b0bb69220/">LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+<footer class="container-fluid mt-3 pt-3 bg-light">
+      <nav>
+        <div class="nav-links-container d-flex justify-content-center">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+      </nav>
+      <p>Copyright &#169; 2023 RAJESH.N. All Rights Reserved.</p>
+      
+      
+</footer>
+
+    
+</body>
+
+</html>
